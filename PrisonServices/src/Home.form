@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Home">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="9" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="21" width="759" height="472"/>
+    </constraints>
+    <properties>
+      <background color="-15396270"/>
+    </properties>
+    <border type="none" title="HARYANA PRISON PORTAL"/>
+    <children>
+      <hspacer id="7e28a">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="72a7a">
+        <constraints>
+          <grid row="1" column="0" row-span="7" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="67ee3" class="javax.swing.JButton" binding="prisonersMenuButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5066964"/>
+          <text value="Prisoners Menu"/>
+        </properties>
+      </component>
+      <component id="2abe9" class="javax.swing.JButton" binding="officerMenuButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="103" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-5066964"/>
+          <text value="Officer Menu"/>
+        </properties>
+      </component>
+      <component id="6b112" class="javax.swing.JButton" binding="prisonMenuButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5066964"/>
+          <text value="Prison Menu"/>
+        </properties>
+      </component>
+      <component id="88427" class="javax.swing.JButton" binding="signOutButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5066964"/>
+          <text value="Sign out"/>
+        </properties>
+      </component>
+      <hspacer id="b3982">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="14" height="30"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <hspacer id="95c90">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="14" height="30"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <vspacer id="9aa1">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="a48ad">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="b6e29" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16447995"/>
+          <font name="Droid Sans Mono Dotted" size="48" style="3"/>
+          <foreground color="-16447995"/>
+          <horizontalAlignment value="4"/>
+          <horizontalTextPosition value="4"/>
+          <icon value="download (1).jpg"/>
+          <text value="WELCOME OFFICER"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
